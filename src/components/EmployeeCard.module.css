@@ -1,0 +1,45 @@
+.employee-card {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1f8cbe;
+  background-color: #191919;
+  border-radius: 20%;
+  box-shadow: 10px 10px #020202;
+}
+.employee-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* border: 2px solid red; */
+}
+.employee-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.names {
+  padding: 10px;
+  color: white;
+  background-color: #191919;
+  font-size: 20px;
+}
+.company {
+  padding: 10px;
+  color: white;
+  background-color: #191919;
+  font-size: 20px;
+}
+.employee-card {
+  transition-property: all;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+.employee-card:hover {
+  transform: scale(1.2);
+}
